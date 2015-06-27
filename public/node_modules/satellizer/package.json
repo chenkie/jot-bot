@@ -1,0 +1,82 @@
+{
+  "name": "satellizer",
+  "description": "Token-based AngularJS Authentication",
+  "version": "0.11.2",
+  "scripts": {
+    "start": "node ./examples/server/node/server.js",
+    "test": "karma start"
+  },
+  "main": "satellizer.min.js",
+  "homepage": "https://github.com/sahat/satellizer",
+  "bugs": {
+    "url": "https://github.com/sahat/satellizer/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sahat/satellizer.git"
+  },
+  "author": {
+    "name": "Sahat Yalkabov",
+    "email": "sahat@me.com",
+    "url": "http://sahatyalkabov.com"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.7",
+    "gulp-complexity": "~0.3.0",
+    "gulp-plumber": "^0.6.4",
+    "gulp-rename": "^1.2.0",
+    "gulp-uglify": "~1.0.0",
+    "gulp-header": "~1.2.0",
+    "karma": "^0.12.21",
+    "karma-coverage": "^0.2.6",
+    "karma-jasmine": "^0.1.5",
+    "karma-phantomjs-launcher": "^0.1.4"
+  },
+  "license": "MIT",
+  "tags": [
+    "authentication",
+    "login",
+    "token",
+    "jwt",
+    "angularjs",
+    "angular",
+    "auth",
+    "facebook",
+    "google",
+    "linkedin",
+    "twitter",
+    "foursquare",
+    "github",
+    "yahoo",
+    "oauth",
+    "oauth 1.0",
+    "oauth 2.0",
+    "oauth2",
+    "oauth1",
+    "sign-in",
+    "social"
+  ],
+  "gitHead": "5a64ab0657bd5559811ec7ff67eb19364093c793",
+  "_id": "satellizer@0.11.2",
+  "_shasum": "07c2b454ef967dcf14ba847fd004da3eb2c1c0e4",
+  "_from": "satellizer@",
+  "_npmVersion": "2.10.1",
+  "_nodeVersion": "0.12.4",
+  "_npmUser": {
+    "name": "sahat",
+    "email": "sakhat@gmail.com"
+  },
+  "dist": {
+    "shasum": "07c2b454ef967dcf14ba847fd004da3eb2c1c0e4",
+    "tarball": "http://registry.npmjs.org/satellizer/-/satellizer-0.11.2.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "sahat",
+      "email": "sakhat@gmail.com"
+    }
+  ],
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/satellizer/-/satellizer-0.11.2.tgz",
+  "readme": "ERROR: No README data found!"
+}
