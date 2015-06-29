@@ -12,7 +12,7 @@
 
 					responseError: function(rejection) {
 
-						// Need to use $injector.get to bring inject $state or else we get
+						// Need to use $injector.get to bring in $state or else we get
 						// a circular dependency error
 						var $state = $injector.get('$state');
 
@@ -90,7 +90,7 @@
 					$rootScope.currentUser = user;
 
 					// If the user is logged in and we hit the auth route we don't need
-					// to stay there and can send the user to the main
+					// to stay there and can send the user to the main state
 					if(toState.name === "auth") {
 
 						// Preventing the default behavior allows us to use $state.go
