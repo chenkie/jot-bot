@@ -6,7 +6,7 @@
 		.module('authApp')
 		.controller('UserController', UserController);
 
-	function UserController($http, $auth, $rootScope) {
+	function UserController($http, $auth, $rootScope, $location) {
 
 		var vm = this;
 
@@ -39,6 +39,9 @@
 
 				// Remove the current user info from rootscope
 				$rootScope.currentUser = null;
+
+				// Redirect to root (necessary for Satellizer 0.12.5+)
+				$location.path('/');
 			});
 		}
 	}
